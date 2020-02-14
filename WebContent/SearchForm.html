@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Search form</title>
+</head>
+<body>
+   <form action="SearchMovieServlet" method="post">
+  <table border="0">
+	 
+	   <tr>
+	  		<td>SearchBy:</td>
+	  </tr>
+	  <tr>
+          <td><input class="form-check-input" type="radio" name="movieradio" id="exampleRadios1" value="id" >
+              <label class="form-check-label" for="exampleRadios1">
+               ID
+              </label>
+           </td>   
+        
+        </tr>
+        <tr>
+          <td><input class="form-check-input" type="radio" name="movieradio" id="exampleRadios2" value="movie-name" checked>
+              <label class="form-check-label" for="exampleRadios2">
+               Name
+              </label>
+        </tr>
+              <td> <input type = "text" name="txtSearch"placeholder="insert Name"></td>
+         
+         </table>
+         <br>
+         <input type = "submit" value="search"/>
+         <br>
+       
+	  
+</form>
+
+</body>
+</html>
